@@ -3,7 +3,6 @@ import { Button } from "./Button";
 import { ProfileImage } from "./ProfileImage";
 import { FormEvent, useLayoutEffect, useRef, useState } from "react";
 import { api } from "~/utils/api";
-import { handleClientScriptLoad } from "next/script";
 
 function updateTextAreaSize(textArea?: HTMLTextAreaElement | null) {
     if (!textArea) return;

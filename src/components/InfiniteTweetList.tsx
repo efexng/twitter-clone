@@ -3,10 +3,8 @@ import { ProfileImage } from "./ProfileImage";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
 import { VscHeart, VscHeartFilled } from "react-icons/vsc";
-import { buffer } from "stream/consumers";
 import { IconHoverEffect } from "./IconHoverEffect";
 import { api } from "~/utils/api";
-import { count } from "console";
 import { LoadingSpinner } from "./LoadingSpinner";
 
 
