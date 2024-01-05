@@ -3,7 +3,6 @@ Twitter Clone
 A simple Twitter clone built using Next.js, React, Tailwind CSS, Prisma, and TypeScript. This project includes basic functionalities such as user authentication (sign in/sign out), tweeting, liking, unliking, following, and unfollowing users. 
 
   
-
 Features 
 
 User authentication (sign in/sign out) 
