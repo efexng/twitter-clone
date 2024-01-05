@@ -1,4 +1,4 @@
-import { GetStaticPaths, GetStaticPropsContext, InferGetStaticPropsType, NextPage } from "next";
+import type { GetStaticPaths, GetStaticPropsContext, InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import { ssgHelper } from "~/server/api/ssgHelper";
 import { api } from "~/utils/api";
